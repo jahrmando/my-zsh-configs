@@ -1,7 +1,7 @@
 alias vim="nvim"
 alias _vim="/usr/bin/vim"
-# alias cat="bat"
-# alias ccat="/bin/cat"
+alias cat="bat"
+alias ccat="/bin/cat"
 #
 ## External 
 alias yolo='git commit -m "$(curl -s http://whatthecommit.com/index.txt)"'
