@@ -73,14 +73,9 @@ ZSH_CUSTOM="$HOME/.config/my-zsh-configs"
 plugins=(
   git
   dotenv
-  docker
-  terraform
-  aws
   zsh-autosuggestions
   zsh-syntax-highlighting
   zsh-interactive-cd
-  gh 
-  kubectl 
 )
 
 source $ZSH/oh-my-zsh.sh
