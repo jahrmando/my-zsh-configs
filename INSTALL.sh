@@ -22,5 +22,5 @@ echo "Reload your ZSH: omz reload"
 which brew
 if [[ $? == "0" ]]; then
   echo "Instalation tools from brew package manager"
-  brew install git nvim grep bat
+  brew install git nvim grep bat git-delta fzf
 fi
