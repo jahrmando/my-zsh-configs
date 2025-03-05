@@ -4,7 +4,7 @@ echo "Instalation.."
 
 rm -rfv ~/.config/my-zsh-configs
 
-git clone git@github.com:jahrmando/my-zsh-configs.git ~/.config/my-zsh-configs 
+git clone https://github.com/jahrmando/my-zsh-configs.git ~/.config/my-zsh-configs 
 
 if [[ -n ${MYZSH_DEBUG}  ]]; then
   cd ~/.config/my-zsh-configs &&  git checkout initial-configs 
